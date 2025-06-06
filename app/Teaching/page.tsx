@@ -28,7 +28,7 @@ export default function Teaching() {
         </a>
         </div>
         <p className="mb-6">
-          In the Fall of 2024 I took Basic Real Analysis (MATH 3310) and Advanced
+          In the Fall of 2024, I took Basic Real Analysis (MATH 3310) and Advanced
           Linear Algebra (MATH 4651).
           My LaTeX notes are provided below.
         </p>

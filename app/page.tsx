@@ -14,7 +14,7 @@ export default function Home() {
           <p className="mb-4">
             Before UVA, I played soccer for D.C. United's Academy Team and Bethesda Soccer Club's Academy Team. 
             I received a D1 offer to play soccer at Davidson. I currently am a practice player for UVA's Varsity 
-            Women Soccer Team.
+            Women's Soccer Team.
           </p>
           <p className="mb-4">
             I am interested in games and how to beat them! I think there are a lot of really complicated answers
