@@ -5,7 +5,7 @@ import ProjectBox from './ProjectBox';
 const projectData = [
     { name: 'Scrabble Solver',link: "/Projects/ScrabbleSolver", description: "Takes letters and the board state as input. Outputs the optimal move."},
     { name: '3D Printed Drawing Machine', link:"/Projects/DrawingMachine", description:"An arduino (cnc extension) powered drawing machine. Inspired by the movie Hugo."},
-    { name: 'Calvin and Hobbes Reader', link:"/", description:"Downloaded from the Internet Archive. The complete Calvin and Hobbes Collection."},
+    { name: 'Calvin and Hobbes Reader', link:"/Projects/CalvinAndHobbes", description:"Downloaded from the Internet Archive. The complete Calvin and Hobbes Collection."},
     { name: 'Sudoku Solver', link:"/", description: "Try a solvable Sudoku! Or have it solved for you."},
     { name: 'Crossword Team Play', link:"/", description:"Get a previous New York Times Crossword and Solve it with a friend."},
     { name: 'Reinforcement Learning Tic-Tac-Toe', link:"/",description:"Example from Sutton's Reinforcement Learning Textbook."},

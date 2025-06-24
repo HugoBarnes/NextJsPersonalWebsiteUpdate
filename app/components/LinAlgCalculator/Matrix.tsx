@@ -1,33 +1,33 @@
 import React from "react";
-interface matrixProps{
-    matrix: number[][];
-    setMatrix: (matrix:number[][]) => void;
-};
 
-export default function Matrix({matrix, setMatrix}:matrixProps){
-    const handleChange = (value: string, row: number, col: number)=>{
-        const newMatrix = [...matrix];
-        newMatrix[row][col] = Number(value);
-        setMatrix(newMatrix);
-    };
+interface MatrixProps {
+  matrix: number[][];
+  setMatrix: (matrix: number[][]) => void;
+}
 
+export default function Matrix({ matrix, setMatrix }: MatrixProps) {
+  const handleChange = (value: string, row: number, col: number) => {
+    const newMatrix = matrix.map((r, i) =>
+      r.map((c, j) => (i === row && j === col ? Number(value) : c))
+    );
+    setMatrix(newMatrix);
+  };
 
-    
-    return(
-        <div className="space-y-2">
+  return (
+    <div className="space-y-1">
       {matrix.map((row, i) => (
-        <div key={i} className="flex gap-2">
+        <div key={i} className="flex gap-1">
           {row.map((value, j) => (
             <input
               key={j}
               type="number"
               value={value}
               onChange={(e) => handleChange(e.target.value, i, j)}
-              className="w-16 border p-1"
+              className="w-12 h-8 text-sm text-center border rounded"
             />
           ))}
         </div>
       ))}
     </div>
-    );
-};
+  );
+}
