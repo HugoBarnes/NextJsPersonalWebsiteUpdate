@@ -11,29 +11,29 @@ const matrixOperations = [
   { name: "Matrix Multiplication", id: "matrixMultiplication" },
   { name: "Dot Product", id: "dotProduct" },
   { name: "Matrix Power", id: "matrixPower" },
-  {
-    name: (
-      <>
-        M = (I - Q)
-        <sup>-1</sup>
-      </>
-    ),
-    id: "mMatrix",
-  },
-  {
-    name: (
-      <>
-        A = (I - Q)
-        <sup>-1</sup>(S)
-      </>
-    ),
-    id: "absorbingMatrix",
-  },
-  { name: "Eigenvalues + Eigenvectors", id: "eigenComps" },
-  { name: "Generalized Eigenvectors", id: "genEigen" },
-  { name: "Null Space", id: "nullSpace" },
-  { name: "Column Space", id: "colSpace" },
-  { name: "Invert Matrix", id: "invertMatrix" },
+  // {
+  //   name: (
+  //     <>
+  //       M = (I - Q)
+  //       <sup>-1</sup>
+  //     </>
+  //   ),
+  //   id: "mMatrix",
+  // },
+  // {
+  //   name: (
+  //     <>
+  //       A = (I - Q)
+  //       <sup>-1</sup>(S)
+  //     </>
+  //   ),
+  //   id: "absorbingMatrix",
+  // },
+  // { name: "Eigenvalues + Eigenvectors", id: "eigenComps" },
+  // { name: "Generalized Eigenvectors", id: "genEigen" },
+  // { name: "Null Space", id: "nullSpace" },
+  // { name: "Column Space", id: "colSpace" },
+  // { name: "Invert Matrix", id: "invertMatrix" },
 ];
 
 export default function MatrixPage() {
